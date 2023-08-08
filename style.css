@@ -204,6 +204,7 @@ img {
   left: 15%;
   color: #ffffff;
   max-width: 400px;
+  text-align: justify;
 }
 .bgmi_about {
   background-color: black;
@@ -378,6 +379,7 @@ img {
   padding: 15px;
   line-height: 20px;
   font-weight: 100;
+  text-align: justify;
 }
 .main_bullet_mark_div {
   position: absolute;
@@ -531,15 +533,24 @@ img {
   top: 44%;
   left: 60.4%;
 }
+.main_circle_location_mark{
+  position: absolute;
+  bottom: 35%;
+  left: 23.4%;
+  align-items: center;
+}
 .circle_location_mark {
   border: 1px solid white;
   width: 65px;
   height: 65px;
   border-radius: 50px;
   padding: 20px;
+  margin-left: 10px;
+}
+.main_red_circle_location_mark{
   position: absolute;
-  bottom: 40%;
-  left: 24%;
+  top: 14%;
+  left: 13%;
 }
 .red_circle_location_mark {
   border: 1px solid white;
@@ -547,16 +558,23 @@ img {
   height: 65px;
   border-radius: 50px;
   padding: 20px;
-  position: absolute;
-  top: 14%;
-  left: 13%;
+}
+.red_circle_location_mark:hover{
+  background-color: #ff01017a;
+}
+.circle_playwin_location_mark:hover{
+  background-color: #ff01017a;
+}
+.circle_location_mark:hover{
   background-color: #ff01017a;
 }
 .sign_up_text {
   font-size: 20px;
+}
+.main_circle_playwin_location_mark{
   position: absolute;
-  top: 25%;
-  left: 13%;
+  bottom: 43%;
+  right: 18%;
 }
 .circle_playwin_location_mark {
   border: 1px solid white;
@@ -564,21 +582,13 @@ img {
   height: 65px;
   border-radius: 50px;
   padding: 20px;
-  position: absolute;
-  bottom: 50%;
-  right: 20.5%;
+  margin-left: 46px;
 }
 .redeem_text {
   font-size: 20px;
-  position: absolute;
-  bottom: 35%;
-  left: 23%;
 }
 .play_text {
   font-size: 20px;
-  position: absolute;
-  bottom: 45%;
-  right: 18%;
 }
 .location_mark3 {
   width: 25px;
@@ -1189,7 +1199,7 @@ footer {
     width: 15px;
     height: 15px;
     left: 28%;
-    top: 68%;
+    top: 55%;
   }
   .red_location2{
     display: block;
@@ -1197,7 +1207,7 @@ footer {
     width: 15px;
     height: 15px;
     left: 54%;
-    top: 61.4%;
+    top: 47.4%;
   }
   .red_location3{
     display: block;
@@ -1205,7 +1215,7 @@ footer {
     width: 15px;
     height: 15px;
     left: 68%;
-    top: 68%;
+    top: 55%;
   }
   .circle_location_mark{
     background-color:#ff000063;
@@ -1228,6 +1238,11 @@ footer {
 .stone_div2{
   width: 100%;
   height: 100%;
+}
+.main_circle_location_mark{
+  bottom: 29%;
+    left: 37.4%;
+   
 }
 }
 
